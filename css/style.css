@@ -4,6 +4,71 @@
     box-sizing: border-box;
 }
 
+/*
+COLORI:
+Azzurro tasti: #0061FF
+Azzurro sfondo: #B4D0E7
+Sfondo Footer: #000000
+
+QUADRATI:
+Designit: #A2D39B
+ASU: #61082B
+UF Florida: #0093CE
+Topps: #0093CE
+World Bycycle Relief: #D5001F
+Hearst: #B4D0E7
+Lonely Planet: #0D2481
+Clear Channel: #FFD830
+*/
+
+
 body{
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+    color: black;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#t-l-menu, #t-r-menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+#t-l-menu li{
+    margin-left: 40px;
+}
+
+#t-r-menu li{
+    margin-right: 40px;
+}
+
+.blue-but{
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 12px;
 }
