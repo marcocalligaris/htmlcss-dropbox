@@ -64,11 +64,15 @@ header a{
 }
 
 #t-r-menu li{
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .blue-but{
     color: white;
     background-color: #0061FF;
+    padding: 8px 12px;
+}
+
+.white-but{
     padding: 8px 12px;
 }
