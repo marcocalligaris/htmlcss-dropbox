@@ -116,25 +116,28 @@ h1{
 }
 
 #col-l{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    position: relative;
+    
 }
 
-col-l-top{
-    flex-basis: 80%;
+#col-l > ul{
+    list-style-type: none;
 }
 
-col-l-bottom{
-    flex-basis: 20%;
-}
-
-#col-l-top  p{
-    margin-bottom: 40px;
+#col-l > ul > li{
+    margin-bottom: 50px;
 }
 
 #col-l .blue-but{
     text-decoration: none;
-    margin-bottom: 40px;
+}
+
+#arrow{
+    position: absolute;
+    top: 70%;
+    font-size: 50px;
+}
+
+.fa-solid{
+    color: black;
 }
