@@ -9,16 +9,6 @@ COLORI:
 Azzurro tasti: #0061FF
 Azzurro sfondo: #B4D0E7
 Sfondo Footer: #000000
-
-QUADRATI:
-Designit: #A2D39B
-ASU: #61082B
-UF Florida: #0093CE
-Topps: #0093CE
-World Bycycle Relief: #D5001F
-Hearst: #B4D0E7
-Lonely Planet: #0D2481
-Clear Channel: #FFD830
 */
 
 
@@ -297,4 +287,28 @@ h4{
 
 .card p{
     font-size: 18px;
+}
+
+/* QUADRATI:
+Designit: #A2D39B
+ASU: #61082B
+UF Florida: #0093CE
+Topps: #0093CE
+World Bycycle Relief: #D5001F
+Hearst: #B4D0E7
+Lonely Planet: #0D2481
+Clear Channel: #FFD830 */
+
+.top-customers{
+    width: 100%;
+    display: flex;
+}
+
+.tags-container{
+    width: calc(100 / 3);
+
+}
+
+.client-tag{
+    width: calc(100 / 6);
 }
