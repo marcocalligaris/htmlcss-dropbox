@@ -115,12 +115,12 @@ h1{
 
 img{
     display: block;
+    width: 100%;
 }
 
 #intro{
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 
@@ -130,10 +130,6 @@ img{
 
 #col-r{
     width: 75%;
-}
-
-#col-r > img{
-    width: 100%;
 }
 
 .mb-30{
@@ -155,7 +151,7 @@ img{
 }
 
 h2{
-    font-size: 55px;
+    font-size: 45px;
     margin-bottom: 50px;
 }
 
@@ -275,10 +271,7 @@ h4{
 .partners{
     display: flex;
     justify-content: space-between;
-}
-
-.partners img{
-    width: 100%;
+    margin-bottom: 120px;
 }
 
 .partners .right-section{
@@ -287,4 +280,18 @@ h4{
 
 .partners p{
     font-size: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+}
+
+.card p{
+    font-size: 18px;
 }
