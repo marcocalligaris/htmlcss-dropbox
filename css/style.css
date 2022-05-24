@@ -41,6 +41,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 #t-l-menu, #t-r-menu{
@@ -66,6 +67,10 @@ header a{
 
 #t-r-menu li{
     margin-left: 40px;
+}
+
+.blue-but, .white-but{
+    text-decoration: none;
 }
 
 .blue-but{
@@ -102,6 +107,10 @@ h1{
     margin-bottom: 60px;
 }
 
+img{
+    display: block;
+}
+
 #intro{
     display: flex;
     justify-content: space-between;
@@ -120,25 +129,18 @@ h1{
     width: 100%;
 }
 
-#col-l{
-    position: relative;
-}
-
-#col-l > ul{
-    list-style-type: none;
-}
-
-#col-l > ul > li{
-    margin-bottom: 50px;
+.mb-30{
+    margin-bottom: 30px;
 }
 
 #col-l .blue-but{
     text-decoration: none;
+    display: inline-block;
 }
 
 #arrow{
     position: absolute;
-    top: 70%;
+    bottom: 20px;
     font-size: 50px;
 }
 
@@ -153,7 +155,6 @@ h2{
 
 #pricing-choice{
     list-style-type: none;
-    list-style-image: ;
     display: flex;
     margin-bottom: 50px;
 }
@@ -178,3 +179,15 @@ h2{
     border: 2px solid lightgrey;
 }
 
+.column{
+    width: 30%;
+}
+
+.column, .profile{
+    border: 1px solid lightgrey;
+}
+
+.profile{
+    text-align: center;
+    line-height: 40px;
+}
