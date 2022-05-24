@@ -140,6 +140,10 @@ img{
     margin-bottom: 50px;
 }
 
+.mb-100{
+    margin-bottom: 100px;
+}
+
 #arrow{
     position: absolute;
     bottom: 20px;
@@ -240,7 +244,6 @@ h4{
 
 .sales-team{
     border: 1px solid lightgrey;
-    margin-bottom: 100px;
 }
 
 .sales-team .profile{
