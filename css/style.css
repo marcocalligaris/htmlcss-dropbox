@@ -83,7 +83,12 @@ header a{
     height: 850px;
     width: 100%;
     padding-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+.central-container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #start-container{
@@ -117,7 +122,6 @@ h1{
 
 #col-l{
     position: relative;
-    
 }
 
 #col-l > ul{
@@ -141,3 +145,36 @@ h1{
 .fa-solid{
     color: black;
 }
+
+h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#pricing-choice{
+    list-style-type: none;
+    list-style-image: ;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#pricing-choice li{
+    margin-right: 50px;
+}
+
+.circle{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#monthly{
+    border: 5px solid royalblue;
+}
+
+#yearly{
+    border: 2px solid lightgrey;
+}
+
