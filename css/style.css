@@ -85,6 +85,8 @@ header a{
 
 .white-but{
     padding: 8px 12px;
+    color: black;
+    border: 1px solid black;
 }
 
 .large-container{
@@ -242,6 +244,7 @@ h4{
 
 .sales-team{
     border: 1px solid lightgrey;
+    margin-bottom: 100px;
 }
 
 .sales-team .profile{
@@ -255,16 +258,33 @@ h4{
 }
 
 .left-section{
-    width: 70%;
+    width: 65%;
 }
 
 .right-section{
-    width: 25%;
+    width: 30%;
 }
 
 .right-section .blue-but{
     width: 100%;
     padding: 15px 20px;
     text-align: center;
+    font-size: 20px;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners img{
+    width: 100%;
+}
+
+.partners .right-section{
+    padding-top: 50px;
+}
+
+.partners p{
     font-size: 20px;
 }
