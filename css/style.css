@@ -329,6 +329,7 @@ Clear Channel: #FFD830 */
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 50%;
+    filter: invert(1);
 }
 #designit{
     background-color: #D1E9CD;
@@ -338,7 +339,6 @@ Clear Channel: #FFD830 */
 #designit-int{
     width: 100%;
     height: 100%;
-    
     background-color: #A2D39B;
 }
 
