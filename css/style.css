@@ -331,7 +331,6 @@ Clear Channel: #FFD830 */
     width: 100vw;
     max-height: calc(100vw / 3);
     display: flex;
-    
 }
 
 .central-square, .tags-container{
@@ -348,6 +347,8 @@ Clear Channel: #FFD830 */
     width: calc(100vw / 6);
     height: calc(100vw / 6);
     position: relative;
+    border: 15px solid transparent;
+    transition: border .4s;
 }
 
 .client-tag img{
@@ -359,15 +360,13 @@ Clear Channel: #FFD830 */
     max-width: 50%;
     filter: invert(1);
 }
-#designit{
-    background-color: #D1E9CD;
-    padding: 15px;
+
+.client-tag:hover{
+    border: 15px solid #D1E9CD;
 }
 
-#designit-int{
-    width: 100%;
-    height: 100%;
-    background-color: #A2D39B;
+#designit{
+    background-color: #A2D39B; 
 }
 
 #asu{
