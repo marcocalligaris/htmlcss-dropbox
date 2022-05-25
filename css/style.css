@@ -11,6 +11,11 @@ Azzurro sfondo: #B4D0E7
 Sfondo Footer: #000000
 */
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+    color: black;
+}
 
 /* Titoli */
 
@@ -44,12 +49,6 @@ h4{
 
 .mb-100{
     margin-bottom: 100px;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 80px;
-    color: black;
 }
 
 header{
@@ -289,6 +288,11 @@ hr{
     font-size: 20px;
 }
 
+#discover-clients{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -318,6 +322,7 @@ Clear Channel: #FFD830 */
     width: 100vw;
     max-height: calc(100vw / 3);
     display: flex;
+    
 }
 
 .central-square, .tags-container{
@@ -427,20 +432,19 @@ Clear Channel: #FFD830 */
     display: inline-block;
 }
 
-.faq{
+.faq .d-flex{
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .hidden-answer{
-    visibility: hidden;
+    display: none;
 }
 
-.fa-angle-down:hover{
+.faq:hover .fa-angle-down{
     transform: rotate(180deg);
 }
 
-.fa-angle-down:hover + .hidden-answer{
-    visibility: visible;
+.faq:hover .hidden-answer{
+    display: block;
 }
