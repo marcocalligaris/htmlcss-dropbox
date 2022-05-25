@@ -51,6 +51,12 @@ h4{
     margin-bottom: 100px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+/* SEZIONE HEADER */
+
 header{
     height: 80px;
     width: 100%;
@@ -74,10 +80,6 @@ header{
     align-items: center;
 }
 
-ul{
-    list-style-type: none;
-}
-
 header ul{
     display: flex;
 }
@@ -87,12 +89,7 @@ header a{
     color: currentColor;
 }
 
-
-#t-l-menu li{
-    margin-left: 40px;
-}
-
-#t-r-menu li{
+#t-l-menu li, #t-r-menu li, #t-r-menu .blue-but{
     margin-left: 40px;
 }
 
@@ -113,6 +110,12 @@ header a{
     background-color: #fff;
     border: 1px solid black;
 }
+
+.blue-but, .white-but:hover{
+    font-weight: bold;
+}
+
+/* SEZIONE "INTRO TUTTO CIO' CHE TI SERVE" */
 
 .large-container{
     background-color: #B4D0E7;
@@ -162,6 +165,7 @@ img{
 }
 
 
+/* SEZIONE "PIANI BUSINESS" */
 
 #pricing-choice{
     display: flex;
@@ -188,6 +192,8 @@ img{
     border: 2px solid lightgrey;
 }
 
+
+
 #pricing-profiles{
     display: flex;
     justify-content: space-between;
@@ -212,8 +218,6 @@ img{
 .profile-details{
     padding: 30px 25px;
 }
-
-
 
 .user-features li{
     display: flex;
@@ -256,7 +260,6 @@ hr{
     padding: 50px 30px;
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 150px; */
 }
 
 .left-section{
@@ -274,6 +277,8 @@ hr{
     font-size: 20px;
 }
 
+/* SEZIONE "TROVA PARTNER DROPBOX" */
+
 .partners{
     display: flex;
     justify-content: space-between;
@@ -287,6 +292,8 @@ hr{
 .partners p{
     font-size: 20px;
 }
+
+/* SEZIONE "SCOPRI I NOSTRI CLIENTI" */
 
 #discover-clients{
     margin-top: 150px;
@@ -306,6 +313,8 @@ hr{
 .card p{
     font-size: 18px;
 }
+
+/* SEZIONE LOGHI CLIENTI */
 
 /* QUADRATI:
 Designit: #A2D39B
@@ -403,6 +412,8 @@ Clear Channel: #FFD830 */
     background-color: #FFD830;
 }
 
+/* SEZIONE "PORTA DROPBOX NELLA TUA AZIENDA" */
+
 .xl-btm-container{
     width: 100vw;
     padding: 150px 0;
@@ -431,6 +442,8 @@ Clear Channel: #FFD830 */
     border: 0;
     display: inline-block;
 }
+
+/* SEZIONE FAQ */
 
 .faq .d-flex{
     display: flex;
