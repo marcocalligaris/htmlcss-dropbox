@@ -439,6 +439,7 @@ Clear Channel: #FFD830 */
 
 .hidden-answer{
     display: none;
+    padding-top: 10px;
 }
 
 .faq:hover .fa-angle-down{
@@ -447,4 +448,64 @@ Clear Channel: #FFD830 */
 
 .faq:hover .hidden-answer{
     display: block;
+}
+
+#faq{
+    margin-bottom: 200px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    padding: 120px 0;
+}
+
+#company-details{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.footer-list{
+    width: 13%;
+}
+
+.footer-list h4{
+    font-size: 28px;
+}
+
+.footer-list li{
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: white;
+}
+
+#company-details hr{
+    width: 120px;
+}
+
+#language{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.fa-earth-europe, .fa-caret-up{
+    color: grey;
+}
+
+#language p{
+    margin: 0 5px;
 }
