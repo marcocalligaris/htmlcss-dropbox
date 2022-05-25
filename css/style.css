@@ -66,11 +66,21 @@ header{
     right: 0;
     background-color: #fff;
     padding: 30px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+}
+
+
+header a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+nav{
+    height: 100%;
 }
 
 #t-l-menu, #t-r-menu{
@@ -80,17 +90,22 @@ header{
     align-items: center;
 }
 
-header ul{
+nav ul{
     display: flex;
 }
 
-header a{
-    text-decoration: none;
-    color: currentColor;
+nav li, #t-r-menu .blue-but{
+    margin-left: 40px;
 }
 
-#t-l-menu li, #t-r-menu li, #t-r-menu .blue-but{
-    margin-left: 40px;
+nav li{
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+}
+
+nav li:hover{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .blue-but, .white-but{
