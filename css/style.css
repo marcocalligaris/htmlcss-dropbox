@@ -95,6 +95,7 @@ header a{
 
 .blue-but, .white-but{
     text-decoration: none;
+    font-weight: normal;
     display: inline-block;
 }
 
@@ -111,7 +112,11 @@ header a{
     border: 1px solid black;
 }
 
-.blue-but, .white-but:hover{
+.blue-but:hover{
+    font-weight: bold;
+}
+
+.white-but:hover{
     font-weight: bold;
 }
 
