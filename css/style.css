@@ -294,24 +294,25 @@ Designit: #A2D39B
 Designit bordo: #D1E9CD
 ASU: #61082B
 UF Florida: #0093CE
-Topps: #0093CE
+Topps: #FF1C1C
 World Bycycle Relief: #D5001F
 Hearst: #B4D0E7
 Lonely Planet: #0D2481
 Clear Channel: #FFD830 */
 
 .top-customers{
-    width: 100%;
+    width: 100vw;
+    max-height: calc(100vw / 3);
     display: flex;
 }
 
 .central-square, .tags-container{
     width: calc(100vw / 3);
-    height: calc(100vw / 3);
 }
 
 .tags-container{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -319,7 +320,6 @@ Clear Channel: #FFD830 */
     width: calc(100vw / 6);
     height: calc(100vw / 6);
     position: relative;
-    fill: white;
 }
 
 .client-tag img{
@@ -342,6 +342,18 @@ Clear Channel: #FFD830 */
     background-color: #A2D39B;
 }
 
+#asu{
+    background-color: #61082B;
+}
+
+#uni-florida{
+    background-color: #0093CE;
+}
+
+#topps{
+    background-color: #FF1C1C;
+}
+
 .central-square{
     padding: 50px;
     background-color: #F5F5F5;
@@ -354,4 +366,20 @@ Clear Channel: #FFD830 */
 .central-square hr{
     border: 1px solid grey;
     width: 100px;
+}
+
+#wb-relief{
+    background-color: #D5001F;
+}
+
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#lonely-planet{
+    background-color: #0D2481;
+}
+
+#clear-channel{
+    background-color: #FFD830;
 }
