@@ -12,6 +12,40 @@ Sfondo Footer: #000000
 */
 
 
+/* Titoli */
+
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+}
+
+/* Margini */
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     padding-top: 80px;
@@ -54,6 +88,7 @@ header a{
     color: currentColor;
 }
 
+
 #t-l-menu li{
     margin-left: 40px;
 }
@@ -76,6 +111,7 @@ header a{
 .white-but{
     padding: 8px 12px;
     color: black;
+    background-color: #fff;
     border: 1px solid black;
 }
 
@@ -97,12 +133,6 @@ header a{
     margin: 0 auto;
 }
 
-h1{
-    font-size: 80px;
-    font-weight: 800;
-    margin-bottom: 60px;
-}
-
 img{
     display: block;
     width: 100%;
@@ -122,18 +152,6 @@ img{
     width: 75%;
 }
 
-.mb-30{
-    margin-bottom: 30px;
-}
-
-.mb-50{
-    margin-bottom: 50px;
-}
-
-.mb-100{
-    margin-bottom: 100px;
-}
-
 #arrow{
     position: absolute;
     bottom: 20px;
@@ -144,10 +162,7 @@ img{
     color: black;
 }
 
-h2{
-    font-size: 45px;
-    margin-bottom: 50px;
-}
+
 
 #pricing-choice{
     display: flex;
@@ -198,14 +213,11 @@ h2{
     padding: 30px 25px;
 }
 
-h3{
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: bold;
-}
+
 
 .user-features li{
     display: flex;
+    align-items: baseline;
 }
 
 .user-features p{
@@ -224,9 +236,7 @@ h3{
     color: lightgrey;
 }
 
-h4{
-    font-weight: bold;
-}
+
 
 .fa-check{
     color: #0061FF;
@@ -382,4 +392,33 @@ Clear Channel: #FFD830 */
 
 #clear-channel{
     background-color: #FFD830;
+}
+
+.xl-btm-container{
+    width: 100%;
+    padding: 150px 0;
+    background-color: #B4D0E7;
+}
+
+.xl-btm-container > .central-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;                                                                                                                                                                                                                                  ;
+}
+
+.xl-btm-container .left-section{
+    width: 60%;
+}
+
+.xl-btm-container .right-section{
+    text-align: right;
+}
+
+.xl-btm-container h2{
+    margin-bottom: 0;
+}
+
+.xl-btm-container a.white-but{
+    border: 0;
+    display: inline-block;
 }
