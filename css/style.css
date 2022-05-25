@@ -192,6 +192,7 @@ img{
 #pricing-profiles{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 
 .column{
@@ -231,12 +232,13 @@ img{
     font-size: 20px;
 }
 
-.profile-details hr{
-    width: 60px;
+hr{
     color: lightgrey;
 }
 
-
+.profile-details hr{
+    width: 60px;
+}
 
 .fa-check{
     color: #0061FF;
@@ -244,6 +246,7 @@ img{
 
 .sales-team{
     border: 1px solid lightgrey;
+    margin-bottom: 150px;
 }
 
 .sales-team .profile{
@@ -254,6 +257,7 @@ img{
     padding: 50px 30px;
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: 150px; */
 }
 
 .left-section{
@@ -395,15 +399,15 @@ Clear Channel: #FFD830 */
 }
 
 .xl-btm-container{
-    width: 100%;
+    width: 100vw;
     padding: 150px 0;
     background-color: #B4D0E7;
+    margin-bottom: 150px;
 }
 
 .xl-btm-container > .central-container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;                                                                                                                                                                                                                                  ;
+    justify-content: space-between;                                                                                                                                                                                                                                  ; */
 }
 
 .xl-btm-container .left-section{
@@ -421,4 +425,22 @@ Clear Channel: #FFD830 */
 .xl-btm-container a.white-but{
     border: 0;
     display: inline-block;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hidden-answer{
+    visibility: hidden;
+}
+
+.fa-angle-down:hover{
+    transform: rotate(180deg);
+}
+
+.fa-angle-down:hover + .hidden-answer{
+    visibility: visible;
 }
