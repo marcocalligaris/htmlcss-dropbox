@@ -104,6 +104,7 @@ nav li{
 }
 
 nav li:hover{
+    content: '';
     border-bottom: 1px solid black;
 }
 
@@ -127,10 +128,12 @@ nav li:hover{
 }
 
 .blue-but:hover{
+    content: '';
     font-weight: bold;
 }
 
 .white-but:hover{
+    content: '';
     font-weight: bold;
 }
 
@@ -382,6 +385,7 @@ Clear Channel: #FFD830 */
 }
 
 .client-tag:hover{
+    content: '';
     border: 15px solid #D1E9CD;
 }
 
