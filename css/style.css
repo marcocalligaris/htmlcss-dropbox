@@ -352,12 +352,12 @@ Clear Channel: #FFD830 */
 
 .top-customers{
     width: 100vw;
-    max-height: calc(100vw / 3);
+    height: calc(100vw / 3);
     display: flex;
 }
 
 .central-square, .tags-container{
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
 }
 
 .tags-container{
@@ -367,8 +367,8 @@ Clear Channel: #FFD830 */
 }
 
 .client-tag{
-    width: calc(100vw / 6);
-    height: calc(100vw / 6);
+    width: 50%;
+    height: 50%;
     position: relative;
     border: 15px solid transparent;
     transition: border .4s;
